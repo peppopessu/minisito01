@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrazione - Astronomia</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Unisciti agli Astronomi</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pagina3.html">chi siamo</a>
+        <a href="pagina4.html">Galassie e sistema Solare</a>
+        <a href="registrazione.html">Registrazione</a>
+    </nav>
+    <main>
+        <h2>Modulo di Iscrizione</h2>
+        <form action="conferma.html" method="GET">
+            <p>
+                <label>Nome e Cognome:</label><br>
+                <input type="text" name="nome" required>
+            </p>
+            <p>
+                <label>Email:</label><br>
+                <input type="email" name="email" required>
+            </p>
+            <p>
+                <label>Password:</label><br>
+                <input type="password" name="password" required>
+            </p>
+            <p>
+                <label>Argomento Astronomico Preferito:</label><br>
+                <select name="argomento">
+                    <option value="pianeti">Pianeti e Sistema Solare</option>
+                    <option value="stelle">Stelle e Buchi Neri</option>
+                    <option value="cosmologia">Origine dell'Universo</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Invia Registrazione</button>
+            </p>
+        </form>
+    </main>
+    <footer>Mini-sito didattico di Astronomia</footer>
+</body>
